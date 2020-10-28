@@ -20,7 +20,7 @@ export default function Footer(){
               
                 <tr> 
                     <td> <a  href="#">terms and conditions</a></td>
-                    <td>    Exams</td>
+                    <td>Exams</td>
                     <td>Top colleges in India</td>
                     <td>user book corner</td>
                   </tr>

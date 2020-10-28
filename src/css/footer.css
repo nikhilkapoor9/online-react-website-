@@ -6,7 +6,8 @@
 th,td,a{
     display: inline;
     /* justify-content: center; */
-    padding:70px;
+    /* padding:60px; */
     color: black;
+    margin:80px;
 }
 
