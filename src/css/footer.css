@@ -1,0 +1,12 @@
+/* th{
+    margin: 40px;
+    display: flex;
+    justify-content:center
+} */
+th,td,a{
+    display: inline;
+    /* justify-content: center; */
+    padding:70px;
+    color: black;
+}
+

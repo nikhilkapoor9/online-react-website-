@@ -1,0 +1,102 @@
+body{
+    background-image: url(../images/background11.jpg);
+}
+.topheading{
+    background-color: red;
+    color: white;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius:0px 0px 40px 40px;
+}
+.Clickon  {
+    background-color: gold;
+    size: 40px;
+    color:whitesmoke;
+    margin-left:4%;
+    margin: 1%;
+    width: 15%;
+    border-radius:40px 40px 40px 40px;
+
+}
+.Logon{
+    background-color: gold;
+    position: relative;
+    margin: 0.5%;
+    padding: 1%;
+    top: 20px;
+    left: 20%;
+}
+.seacrhbar{
+    position: absolute;
+    /* justify-content: center; */
+    /* width: 40%; */
+       /* justify-content: center;
+       top: 170px;
+       height: 30px;
+       width: 40px; */
+       /* margin-left: 20%;
+       margin-right: 20%; */
+  top: 250px;
+  height: 30px;
+  display: flex;
+  margin-left: 10%;
+
+      
+}
+input[type="text"]{
+    width: 60%;
+}
+.multiplebutton{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    }
+    
+.coursesbutton{
+    display: inline;
+    position: relative;
+    top: 300px;
+ 
+    padding: 55px 0px 0px 0px;
+    height: 150px;
+    width:110px;
+    /* filter: blur(1px); */
+    opacity: 0.8;
+    
+}
+.images{
+    position: absolute;
+    top:65%;
+    z-index: 2;
+    /* left:-0.5px; */
+}
+
+
+.coursesbutton:hover{
+    background-color: aqua;
+}
+.mail{
+    height: 20px;
+    width: 30px;
+    border-radius: 5px 5px 5px 5px;
+}
+.mailid{
+    text-decoration: none;
+}
+
+
+
+
+
+.footer{
+    position: relative;
+    top:400px;
+    height: 250px;
+  
+    background-color: blue;
+}
