@@ -1,6 +1,7 @@
 body{
     background-image: url(../images/background11.jpg);
 }
+
 .topheading{
     background-color: red;
     color: white;
@@ -55,10 +56,16 @@ input[type="text"]{
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+
+    }
+    .singlebutton{
+        /* opacity: 3%; */
+
     }
     
 .coursesbutton{
     display: inline;
+    
     /* position: relative;
     top: 300px; */
     position: absolute;
@@ -67,7 +74,7 @@ input[type="text"]{
     height: 150px;
     width:110px;
     /* filter: blur(1px); */
-    opacity: 0.8;
+    opacity:0.8;
     
 }
 .images{
@@ -97,8 +104,8 @@ input[type="text"]{
 
 .footer{
     position: relative;
-    top:400px;
-    height: 250px;
+    top:480px;
+    height:500px;
   
     background-color: blue;
 }

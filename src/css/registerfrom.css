@@ -11,6 +11,12 @@
        
 }
 
+.registerfrom :hover{
+    transition: 2s;
+    transform-style:initial;
+    transform: scale(2%);
+}
+
 .h1text{
 color: black;
 

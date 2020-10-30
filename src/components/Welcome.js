@@ -24,6 +24,7 @@ export default class Welcome  extends Component{
          if(this.state.displayform=='0'){
              this.setState({
                  displayform:'1'
+                 
              })
          }
          else  {

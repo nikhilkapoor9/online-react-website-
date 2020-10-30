@@ -30,7 +30,7 @@ return(
 
              <input type="number" placeholder="your mobile" className="countriesnames"/>
              <div>
-             <img src={close} width="40" height="20"  className="closeform"  onClick={props.Changevent}/>
+             <img src={close} width="40" height="20"  className="closeform"  onClick={props.onClick}/>
 
              </div>
 
