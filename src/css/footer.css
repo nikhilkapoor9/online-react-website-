@@ -10,7 +10,11 @@
 
 .footerleft{
     float: left;
+    
    margin:0%  3% 0% 3%;
+  
+   text-decoration: none;
+   color: black;
    /* padding: 0% 1% 0% 1%; */
 }
 

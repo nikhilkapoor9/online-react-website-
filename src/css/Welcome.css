@@ -1,11 +1,15 @@
 body{
     background-image: url(../images/background11.jpg);
+    cursor: scroll;
+}
+button{
+    cursor: pointer;
 }
 
 .topheading{
     background-color: red;
     color: white;
-    width: 35%;
+    width: 45%;
     display: flex;
     justify-content: center;
     margin: auto;
@@ -13,12 +17,13 @@ body{
 }
 .Clickon  {
     background-color: gold;
-    size: 40px;
+    
+    text-align: auto;
     color:whitesmoke;
     margin-left:4%;
     margin: 1%;
-    width: 15%;
-    border-radius:40px 40px 40px 40px;
+    width: 25%;
+    border-radius:40px 20px 40px 20px;
 
 }
 .Logon{
@@ -58,16 +63,11 @@ input[type="text"]{
     flex-wrap: wrap;
 
     }
-    .singlebutton{
-        /* opacity: 3%; */
-
-    }
+ 
+ 
     
 .coursesbutton{
     display: inline;
-    
-    /* position: relative;
-    top: 300px; */
     position: absolute;
     top:55%;
     padding: 55px 0px 0px 0px;
@@ -105,7 +105,52 @@ input[type="text"]{
 .footer{
     position: relative;
     top:480px;
-    height:500px;
+    height:250px;
   
     background-color: blue;
+}
+
+
+
+@media only  screen and (max-width:600px) {
+  .hamburger{
+     position: absolute;
+     left: 1%;
+      width: 100px;
+      height: 100px;
+  background-color:orange;
+  border-radius: 52%;
+ 
+  
+  }
+  .seacrhbar{
+    position: absolute;
+     top: 40%;
+     margin-left: 2px;
+     margin: 1%;
+  }
+
+  .line{
+      position: relative;
+      top: 35%;
+      left: 30%;
+      margin: 3px;
+      width: 30px;
+      height: 5px;
+      cursor:pointer;
+            background-color: aliceblue;
+  }
+.hamburger:hover{
+    transform: rotate(180deg); 
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
+
+}
+.footer{
+    height: 500px;
+}
+
+
+
 }

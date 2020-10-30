@@ -43,13 +43,22 @@ export default class Welcome  extends Component{
 
 render(){
     return(<div>
+
                             <div className="topheading">
+                            <div className="hamburger">           
+                          <div className="line"></div>
+                          <div className="line"></div>
+                          <div className="line"></div>
+                            </div>
+
+
+
                  <h3>Engineering students Study Material</h3>  
                  <input type="button" value="Click On" className="Clickon" onClick={this.Changevent}/>
 
                  {
                      this.state.displayform=='1' ?
-                     <Registerfrom  onClick={this.Changevent}></Registerfrom>  :  
+                     <Registerfrom className="loginform" onClick={this.Changevent}></Registerfrom>  :  
                      <div></div>
                  }
 
@@ -57,46 +66,16 @@ render(){
 
                             <div>
                                 <img src={require('../images/mail.png')}  className="mail"/>
-
                                 <a href="#" className="mailid">helpmynextexam.com</a>
                                 <input type="button" value="SIgn Up/Log In" className="Logon"  onClick={this.Changevent} />
                                 <input type="button" value="Exams postponed" className="Logon"  />
 
- 
-                                        
-
-
-                                {/* <input type="text"  placeholder="Entrance Exams,colleges"  className="seacrhbar"/> */}
+                      {/* <input type="text"  placeholder="Entrance Exams,colleges"  className="seacrhbar"/> */}
                                 <input type="text" placeholder="Enterance Exams" className="seacrhbar"></input>
 
                             </div>
-
-                            
-                                 
-                             {/* <img  src={require('../images/admissions.png')}   width="70px" height="70px"  className="admissions"></img>
-                                <Button value="Admission"></Button>
-                                <img  src={require('../images/exams.jpg')}   width="70px" height="70px"  className="admissions"></img>
-                                <Button value="Exams"></Button>
-                                <img  src={require('../images/colleges.jpg')}   width="70px" height="70px"  className="admissions"></img>
-                                <Button value="College"></Button>
-                                <img  src={require('../images/university.ico')}   width="70px" height="70px"  className="admissions"></img>
-
-                                <Button value="Universities"></Button>
-                                <img  src={require('../images/Books.jpg')}   width="70px" height="70px"  className="admissions"></img>
-
-                                <Button value="Courses"></Button>
-                                <img  src={require('../images/person.png')}   width="70px" height="70px"  className="admissions"></img>
-
-                                <Button value="Online Counselling"></Button>
-                                <img  src={require('../images/books2.png')}   width="70px" height="70px"  className="admissions"></img>
-
-                                <Button value="User Book Corner"></Button>
-                                <img  src={require('../images/chat.ico')}   width="70px" height="70px"  className="admissions"></img>
-
-                                <Button value="Message Lounge"></Button>
-                                <img  src={require('../images/colleges.jpg')}   width="70px" height="70px"  className="admissions"></img>  */}
+     
                                  <div  className="multiplebutton">  
-
                                 <Button value="Admission"  picname="admissions.png"></Button>
                                 <Button value="exams"  picname="exams.jpg"></Button>
                                 <Button value="colleges"  picname="colleges.jpg"></Button>
@@ -105,23 +84,8 @@ render(){
                                 <Button value="Online Counselling"  picname="person.png" ></Button>
                                 <Button value="User Book Corner" picname="books2.png"></Button>
                                 <Button value="Message Lounge" picname="chat.ico"></Button>
-
-
-
-
-                                 
-                                 
-                                  </div>
+                                </div>
                                 
-                            
-                             
-                                
-                                
-                                    
-                                   
-                                
-
-
                                  <div  className="footer">  
                                  <Footer   ></Footer>
 

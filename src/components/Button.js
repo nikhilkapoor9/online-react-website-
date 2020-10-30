@@ -12,7 +12,8 @@ export default function button(props){
 <div className="singlebutton">
 
 <img  src={require('../images/'+props.picname)}   width="70px" height="70px"  className="images"></img>
-<input type="button"   value={props.value}  className="coursesbutton"/>
+<input type="button"   value={props.value}  className="coursesbutton"/>   
+<div className="horizontalline"></div>
 
 </div>
 
